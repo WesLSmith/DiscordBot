@@ -183,6 +183,8 @@ async def get_proper_lane_name(lane):
     if lane_name not in lane_dict:
         return False
     return lane_dict[lane_name]
-
+#ubuntu is stupid
 file1 = open("token.txt", 'r' )
-bot.run(file1.read())
+file1 = file1.read()
+file1 = file1[:-3]
+bot.run(file1)
