@@ -186,5 +186,5 @@ async def get_proper_lane_name(lane):
 #ubuntu is stupid
 file1 = open("token.txt", 'r' )
 file1 = file1.read()
-file1 = file1[:-3]
+file1 = file1[:-2]
 bot.run(file1)
