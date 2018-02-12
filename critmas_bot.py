@@ -16,7 +16,7 @@ bot = commands.Bot(command_prefix = '?', description = description)
 @bot.event
 async def on_ready():
     print("logging in")
-    await client.change_nickname(bot.user.id,"Newt3 Bot")
+    print("Logged in My dude")
   
 
 
