@@ -184,4 +184,5 @@ async def get_proper_lane_name(lane):
         return False
     return lane_dict[lane_name]
 
-bot.run("Mzk0MjcxMjIxNjc3Njg2Nzk0.DSxz6A.Rj5IaLDsiEPwMQ2nX1GW6XL7_ZY")
+file1 = open("token.txt", 'w' )
+bot.run(file1.readline())
